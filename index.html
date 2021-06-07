@@ -4,20 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title> Blackjack</title>
 </head>
 <body>
+
+  <header>
+    <div  class="container-header"  >
     <h1> Blackjack</h1>
+    </div>
+  </header>
+ 
+  <div class="main-wrapper">
 
     <p id="message-el"> Want to play a round?</p>
-    <p id="cards-el">cards:</p>
     <p id="sum-el">Sum:</p>
 
-    <button onclick="startGame()"> START GAME </button>
+    <button onclick="startGame()"> START  </button>
     <button onclick="newCard()"> NEW CARD </button>
 
-
-    <script src="apps.js"></script>
+    <div id="card-container">
+      
+    </div>
+   
+  </div>
+    <script src="script.js"></script>
 </body>
 </html>
