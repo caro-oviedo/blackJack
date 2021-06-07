@@ -6,16 +6,27 @@ body{
     text-align: center;
     color:black;
     font-weight: bold;
-    
-    
 }
+
 
 .container-header{
   display: flex;
   justify-content: flex-end;
-  background: linear-gradient(rgb(0,153,76), rgb(0,51,25));
+  background: linear-gradient(to left,rgb(0,153,76), rgb(0,51,25) );
   margin: 0;      
 }
+
+.separator{
+  height: 125px;
+  margin-top:calc(125px * -1);
+  background-image: linear-gradient(to bottom right, transparent, transparent 40%, white 52%, white);
+
+}
+
+.end{
+  background: white;
+}
+
 
 h1{ 
    font-size: 3rem;
