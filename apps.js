@@ -1,18 +1,18 @@
 let cardImg = [
-    ['AC.png','AD.png', 'AH.png', 'AS.png'],
-    ['2C.png','2D.png', '2H.png', '2S.png'],
-    ['3C.png','3D.png', '3H.png', '3S.png'],
-    ['4C.png','4D.png', '4H.png', '4S.png'],
-    ['5C.png','5D.png', '5H.png', '5S.png'],
-    ['6C.png','6D.png', '6H.png', '6S.png'],
-    ['7C.png','7D.png', '7H.png', '7S.png'],
-    ['8C.png','8D.png', '8H.png', '8S.png'],
-    ['9C.png','9D.png', '9H.png', '9S.png'],
-    ['10C.png','10D.png', '10H.png', '10S.png'],
-    ['10C.png','10D.png', '10H.png', '10S.png'],
-    ['10C.png','10D.png', '10H.png', '10S.png'],
-    ['10C.png','10D.png', '10H.png', '10S.png'],
-    ['10C.png','10D.png', '10H.png', '10S.png'],
+    ['img/AC.png','img/AD.png', 'img/AH.png', 'img/AS.png'],
+    ['img/2C.png','img/2D.png', 'img/2H.png', 'img/2S.png'],
+    ['img/3C.png','img/3D.png', 'img/3H.png', 'img/3S.png'],
+    ['img/4C.png','img/4D.png', 'img/4H.png', 'img/4S.png'],
+    ['img/5C.png','img/5D.png', 'img/5H.png', 'img/5S.png'],
+    ['img/6C.png','img/6D.png', 'img/6H.png', 'img/6S.png'],
+    ['img/7C.png','img/7D.png', 'img/7H.png', 'img/7S.png'],
+    ['img/8C.png','img/8D.png', 'img/8H.png', 'img/8S.png'],
+    ['img/9C.png','img/9D.png', 'img/9H.png', 'img/9S.png'],
+    ['img/10C.png','img/10D.png', 'img/10H.png', 'img/10S.png'],
+    ['img/10C.png','img/10D.png', 'img/10H.png', 'img/10S.png'],
+    ['img/10C.png','img/10D.png', 'img/10H.png', 'img/10S.png'],
+    ['img/10C.png','img/10D.png', 'img/10H.png', 'img/10S.png'],
+    ['img/10C.png','img/10D.png', 'img/10H.png', 'img/10S.png'],
 ]
 
 let hasBlackJack = false
@@ -86,7 +86,7 @@ function getImage(num){
   let imageContainer = document.getElementById("card-container");
   let image = document.createElement('img');
   image.setAttribute('src', imageSrc )
-  image.setAttribute('width', '15%')
+  image.setAttribute('width', '20%')
   imageContainer.appendChild(image);
 }
 
